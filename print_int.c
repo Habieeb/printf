@@ -19,7 +19,7 @@ n = va_arg(i, int);
 		num = n;
 		len = 0;
 		while (num != 0)
-	`ZZ	{
+        	{
 			num /= 10;
 			len++;
 		}
