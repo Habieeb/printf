@@ -37,11 +37,11 @@ n = va_arg(i, int);
 			n -= digit * powten;
 			powten /= 10;
 		}
-	}
-	else
-	{
+       	}
+        	else
+         	{
 		_putchar('0');
 		return (1);
-	}
-	return (count);
+        	}
+        	return (count);
 }
