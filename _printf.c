@@ -218,4 +218,4 @@ int call_funct_mgr(char aux, va_list arg)
 
 	return (cont);
 
-}}
+}
